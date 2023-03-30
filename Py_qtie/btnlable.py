@@ -7,4 +7,11 @@ class Window(QWidget):
         super().__init__()
         self.setWindowTitle("Buttons")
         self.setWindowIcon(QIcon("qt.png"))
-        self.setGeometry(800, 800, 800, 800)
+        self.setGeometry(1300, 800, 1300, 800)
+
+class
+
+app = QApplication(sys.argv)
+window = Window()
+window.show()
+sys.exit(app.exec())
