@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel
+from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QPushButton
 from PyQt5.QtGui import QIcon
 import sys
 
@@ -9,7 +9,8 @@ class Window(QWidget):
         self.setWindowIcon(QIcon("qt.png"))
         self.setGeometry(1300, 800, 1300, 800)
 
-class
+    def create_stuff(self):
+        btn = QPushButton("start", self)
 
 app = QApplication(sys.argv)
 window = Window()
