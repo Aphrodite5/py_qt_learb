@@ -21,6 +21,7 @@ class Window(QWidget):
         lable.setStyleSheet("color.green")
         lable.setFont(QFont("console",15))
 
+
 app = QApplication(sys.argv)
 window = Window()
 window.show()
