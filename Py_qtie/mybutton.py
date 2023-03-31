@@ -30,6 +30,7 @@ class Ui_Form(object):
 "QLable{\n"
 "color: \" green\"\n"
 "}")
+        self.pushButton.clicked.connect(self.clicked_btn)
         self.pushButton.setObjectName("pushButton")
         self.label = QtWidgets.QLabel(Form)
         self.label.setGeometry(QtCore.QRect(40, 300, 181, 61))
@@ -48,6 +49,9 @@ class Ui_Form(object):
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
 
+    def clicked_btn(self):
+        self.label.setText("Change text")
+        self.label.setStyleSheet("background-color : yellow")
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
