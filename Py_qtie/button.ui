@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>532</width>
-    <height>464</height>
+    <width>775</width>
+    <height>715</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,7 +36,7 @@ background-color : &quot;red&quot;
 }
 
 QLable{
-color: &quot; green&quot;
+color: &quot;green&quot;
 }</string>
    </property>
    <property name="text">
