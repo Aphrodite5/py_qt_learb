@@ -8,8 +8,8 @@ class Window(QWidget):
         super().__init__()
         self.setWindowTitle("Window")
         self.setWindowIcon(QIcon("qt.png"))
-        #self.setFixedHeight(200)
-        #self.setFixedWidth(200)
+        # self.setFixedHeight(200)
+        # self.setFixedWidth(200)
         self.setGeometry(500,500,500,500)
         self.setStyleSheet("background-color:red")
 
